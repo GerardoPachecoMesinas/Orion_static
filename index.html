@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Orion Networks</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1193d4",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101c22",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-white">
+    <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+        <div class="layout-container flex h-full grow flex-col">
+            <div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-5">
+                <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+                    <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 dark:border-gray-700 px-4 md:px-10 py-3">
+                        <div class="flex items-center gap-4 text-[#0d171b] dark:text-white">
+                            <div class="size-6 text-primary">
+                                <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z" fill="currentColor"></path>
+                                </svg>
+                            </div>
+                            <h2 class="text-[#0d171b] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Orion Networks</h2>
+                        </div>
+                        <div class="hidden md:flex flex-1 justify-end gap-8">
+                            <div class="flex items-center gap-9">
+                                <a class="text-[#0d171b] dark:text-white text-sm font-medium leading-normal" href="#">Servicios</a>
+                                <a class="text-[#0d171b] dark:text-white text-sm font-medium leading-normal" href="#">Cobertura</a>
+                                <a class="text-[#0d171b] dark:text-white text-sm font-medium leading-normal" href="#">Nosotros</a>
+                                <a class="text-[#0d171b] dark:text-white text-sm font-medium leading-normal" href="#">Contacto</a>
+                            </div>
+                            <button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em]">
+                                <span class="truncate">Contratar ahora</span>
+                            </button>
+                        </div>
+                        <div class="md:hidden">
+                            <button class="text-[#0d171b] dark:text-white">
+                                <span class="material-symbols-outlined">menu</span>
+                            </button>
+                        </div>
+                    </header>
+                    <main class="flex flex-col gap-10 md:gap-20">
+                        <div class="@container mt-5">
+                            <div class="@[480px]:p-4">
+                                <div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-start justify-end px-4 pb-10 @[480px]:px-10" data-alt="Abstract image representing technology and connectivity" style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCyaEtiLarNq4VEbohDQl-BTHEbFbrOvaKMG9glrdcZLHSAdIxm2ls9MGO0pGqrUQ6_B2bg-z4k6PNxIhJD9d4npFwm8j5sBrxML_y8ZWfjNc79IwtrjxaTUGpOo5jvhp3Ztx_hI9QJ4Eon2z4mFT9pgAqvv0i5o8-lNAqiHPY_hyu3Y0e2iRTsi35ntXkI-1B19JM7EMB2WZd9WwJ2msd670y5wIVsgpMrrvDT5R0SEkhoFSAKCfV7yCbnAdnoJfs6BY2iam1cefY");'>
+                                    <div class="flex flex-col gap-2 text-left">
+                                        <h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                                            Internet sin límites. Conexión sin cables.
+                                        </h1>
+                                        <h2 class="text-gray-200 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal max-w-2xl">
+                                            Orion Networks es un proveedor de internet inalámbrico innovador y confiable para hogares y empresas.
+                                        </h2>
+                                    </div>
+                                    <button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                                        <span class="truncate">Ver Planes</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-10 px-4 py-10 @container">
+                            <div class="flex flex-col gap-4">
+                                <h2 class="text-[#0d171b] dark:text-white tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]">
+                                    Beneficios y Características
+                                </h2>
+                                <p class="text-gray-600 dark:text-gray-300 text-base font-normal leading-normal max-w-[720px]">Descubre las ventajas de nuestro servicio de internet inalámbrico.</p>
+                            </div>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                                <div class="flex flex-col gap-3 rounded-lg border border-gray-200 dark:border-gray-700 bg-background-light dark:bg-background-dark p-6">
+                                    <div class="text-primary"><span class="material-symbols-outlined text-3xl">speed</span></div>
+                                    <div class="flex flex-col gap-1">
+                                        <h3 class="text-[#0d171b] dark:text-white text-lg font-bold leading-tight">Alta Velocidad Garantizada</h3>
+                                        <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">Disfruta de una conexión rápida y estable para todas tus necesidades.</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col gap-3 rounded-lg border border-gray-200 dark:border-gray-700 bg-background-light dark:bg-background-dark p-6">
+                                    <div class="text-primary"><span class="material-symbols-outlined text-3xl">home_iot_device</span></div>
+                                    <div class="flex flex-col gap-1">
+                                        <h3 class="text-[#0d171b] dark:text-white text-lg font-bold leading-tight">Instalación Rápida y Sencilla</h3>
+                                        <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">Nuestro equipo se encarga de todo para que puedas empezar a navegar en poco tiempo.</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col gap-3 rounded-lg border border-gray-200 dark:border-gray-700 bg-background-light dark:bg-background-dark p-6">
+                                    <div class="text-primary"><span class="material-symbols-outlined text-3xl">support_agent</span></div>
+                                    <div class="flex flex-col gap-1">
+                                        <h3 class="text-[#0d171b] dark:text-white text-lg font-bold leading-tight">Soporte Técnico 24/7</h3>
+                                        <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">Estamos disponibles para ayudarte en cualquier momento del día.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-10 px-4 py-10">
+                            <h2 class="text-[#0d171b] dark:text-white text-center text-3xl font-bold leading-tight tracking-tighter">Lo que dicen nuestros clientes</h2>
+                            <div class="flex overflow-x-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+                                <div class="flex items-stretch p-4 gap-6">
+                                    <div class="flex flex-1 flex-col gap-4 rounded-lg min-w-72 bg-white dark:bg-gray-800 p-6 shadow-md border border-gray-200 dark:border-gray-700">
+                                        <div class="w-full h-40 bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col" data-alt="Portrait of Juan Pérez" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC77L18CQ0XdCVyEWclEE6O3wm49TwDhaHVJrZLB1AoIb4WYWP_cMGkpjTs5xRyetkqDEdkG8MWHPOOA3SU3h2ZGbzgF3jIqw-DBfL0pUBuLpIfzU9KzxuPopxXGNQHc-Wg-N9IOX9WqUfeA5iCFvovUIYPC4Lbk-BG5Y1tz11nEFFsAtfjky1IdI81dCNaWjljlWT6Fjwa5UDq89KUYMK0IYUkVOO4X3sQf81Avvo_VkvZcG8RjKZAQd15ADfXNGdHCXvMv7dDsk0");'></div>
+                                        <div>
+                                            <p class="text-[#0d171b] dark:text-white text-base font-medium leading-normal">Juan Pérez, Ciudad de México</p>
+                                            <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">"¡El mejor internet que he tenido! Rápido, confiable y el servicio al cliente es excelente."</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-1 flex-col gap-4 rounded-lg min-w-72 bg-white dark:bg-gray-800 p-6 shadow-md border border-gray-200 dark:border-gray-700">
+                                        <div class="w-full h-40 bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col" data-alt="Portrait of María García" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDj_5jJoYhNamM_f8r1MOdGv3wEWj1Maa3jFDto8BgVuNqnW4mVQHyU4_E58YGKLWn2fQC7TRi82eLmvxfbrO2e_8oWv4V6WRPd029XxCQJve4G73I_lvAPebxUaDd3fs4-aH4egc0I6tTjGpoKFfbtZLnIa4T_44bitqCjEOkVBDQcgrOL8QRYVqMxbzxsQYGzAMiD6uT_JagOjZSNZgkRol2FVl01wKiFsdRR1k8pAARYp1uLgQUnTXTvlkT2cCSnYGLzf8c8Ocs");'></div>
+                                        <div>
+                                            <p class="text-[#0d171b] dark:text-white text-base font-medium leading-normal">María García, Guadalajara</p>
+                                            <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">"Finalmente puedo trabajar desde casa sin interrupciones. ¡Totalmente recomendado!"</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-1 flex-col gap-4 rounded-lg min-w-72 bg-white dark:bg-gray-800 p-6 shadow-md border border-gray-200 dark:border-gray-700">
+                                        <div class="w-full h-40 bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col" data-alt="Portrait of Carlos Rodríguez" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBCHKIrywKLowrz1u5qNwaCCuvryKuxorn2uTBQaSSAtII9rdbvzgoi0HHaLTiCaW06S0KRwQIqFYh1U7SekGnQlTvCb2ijR8gyhNp2XAzKoApwAp08tF5W7wrLNX6s6WEfk09YMxEZNhdbRinjdVGxnSLIoprX637c7MYFpV2xgDEVWXsIZ5gA_4jtB3t0JcSpLoTbiLo8gDefB0Zb-WO7ES9uNMRJl4gsHWqJz8thCrMYJfsZzomk0f0SyqtgcSgeIYHVrwCQPJ8");'></div>
+                                        <div>
+                                            <p class="text-[#0d171b] dark:text-white text-base font-medium leading-normal">Carlos Rodríguez, Monterrey</p>
+                                            <p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">"La instalación fue muy rápida y profesional. Estoy muy contento con el servicio."</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="@container bg-gray-100 dark:bg-gray-800 rounded-xl">
+                            <div class="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
+                                <div class="flex flex-col gap-2 text-center">
+                                    <h2 class="text-[#0d171b] dark:text-white tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px] mx-auto">
+                                        ¿Llegamos a tu zona? Comprueba tu cobertura ahora.
+                                    </h2>
+                                </div>
+                                <div class="flex flex-1 justify-center">
+                                    <label class="flex flex-col min-w-40 h-14 max-w-[480px] flex-1 @[480px]:h-16">
+                                        <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                                            <input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d171b] dark:text-white focus:outline-0 focus:ring-0 border-none bg-white dark:bg-gray-700 focus:border-none h-full placeholder:text-gray-500 dark:placeholder:text-gray-400 px-4 rounded-r-none border-r-0 pr-2 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal" placeholder="Introduce tu dirección" value=""/>
+                                            <div class="flex items-center justify-center rounded-r-lg border-l-0 border-none bg-white dark:bg-gray-700 pr-2">
+                                                <button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                                                    <span class="truncate">Verificar Cobertura</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="border-t border-gray-200 dark:border-gray-700 mt-10 py-10 px-4">
+                            <div class="max-w-[960px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+                                <div class="flex flex-col gap-4">
+                                    <div class="flex items-center gap-2 text-[#0d171b] dark:text-white">
+                                        <div class="size-6 text-primary">
+                                            <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z" fill="currentColor"></path>
+                                            </svg>
+                                        </div>
+                                        <h3 class="text-lg font-bold">Orion Networks</h3>
+                                    </div>
+                                    <p class="text-sm text-gray-500 dark:text-gray-400">© 2024 Orion Networks. Todos los derechos reservados.</p>
+                                </div>
+                                <div class="flex flex-col gap-3">
+                                    <h4 class="font-bold text-[#0d171b] dark:text-white">Navegación</h4>
+                                    <a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary" href="#">Servicios</a>
+                                    <a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary" href="#">Cobertura</a>
+                                    <a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary" href="#">Nosotros</a>
+                                    <a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary" href="#">Contacto</a>
+                                </div>
+                                <div class="flex flex-col gap-3">
+                                    <h4 class="font-bold text-[#0d171b] dark:text-white">Contacto</h4>
+                                    <p class="text-sm text-gray-500 dark:text-gray-400">contacto@orionnetworks.com</p>
+                                    <p class="text-sm text-gray-500 dark:text-gray-400">+52 55 1234 5678</p>
+                                </div>
+                                <div class="flex flex-col gap-3">
+                                    <h4 class="font-bold text-[#0d171b] dark:text-white">Legal</h4>
+                                    <a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary" href="#">Política de Privacidad</a>
+                                    <a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary" href="#">Términos de Servicio</a>
+                                </div>
+                            </div>
+                        </footer>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
